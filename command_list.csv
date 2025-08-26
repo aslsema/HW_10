@@ -1,0 +1,31 @@
+    1  git init
+    2  git add .
+    3  git commit -m "ilk versiyon"
+    4  git remote add origing https://github.com/aslsema/HW_10.git
+    5  git push -u origin main
+    6  git branch
+    7  git clone https://github.com/aslsema/HW_10.git
+    8  cd HW_10
+    9  touch text_ignore.txt
+   10  nano .gitignore
+   11  git status
+   12  git add .
+   13  git commit -m "text_ignore.txt dosyasını gitignore'a ekledim"
+   14  touch main_test.txt
+   15  git add .
+   16  git commit -m "v1"
+   17  git push -u origin main
+   18  clear
+   19  git branch
+   20  git branch develop
+   21  git checkout develop
+   22  touch develop_test.txt
+   23  git add .
+   24  git commit -m "v2"
+   25  git status
+   26  git add .
+   27  git commit -m "v3"
+   28  git checkout main
+   29  git merge develop
+   30  git log
+   31  history > command_list.csv
